@@ -6,5 +6,10 @@ pipeline {
         bat 'CloudTask.bat'
       }
     }
+    stage('another repo') {
+      steps {
+        bat 'bouns.bat'
+      }
+    }
   }
 }
