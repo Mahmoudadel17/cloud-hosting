@@ -1,3 +1,3 @@
 @ECHO OFF
-ls
+dir
 PAUSE
