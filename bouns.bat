@@ -8,6 +8,5 @@ git clone https://github.com/Mahmoudadel17/cloud-hosting2.git
 REM Navigate to the cloned repository
 cd cloud-hosting2
 
-REM Execute the Jenkins Pipeline script
-java -jar C:\Jenkins\jenkins-cli.jar -s http://localhost:8080/jenkins -auth Mahmoud:1722 build -f Jenkinsfile3
+dir
 PAUSE
