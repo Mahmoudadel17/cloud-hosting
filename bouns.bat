@@ -9,5 +9,5 @@ REM Navigate to the cloned repository
 cd cloud-hosting2
 
 REM Execute the Jenkins Pipeline script
-call jenkins-cli.jar -s http://localhost:8080/jenkins -auth Mahmoud:1722 build -f Jenkinsfile3
+java -jar C:\Jenkins\jenkins-cli.jar -s http://localhost:8080/jenkins -auth Mahmoud:1722 build -f Jenkinsfile3
 PAUSE
